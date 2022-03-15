@@ -1,0 +1,141 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+    --pacific: #489fb5;
+    --ming: #16697a;
+    --grey: #e5e5e5;
+    --darkgrey: #A2999e;
+}
+
+.center {
+    text-align: center;
+}
+
+.login {
+    background: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up {
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 650px;
+}
+
+.reset {
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+}
+
+.question {
+    margin-top: 50px;
+    
+}
+
+.password {
+    margin-top: 50px;
+}
+
+.sign {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    background:var(--grey);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+input, text {
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 20px;
+}
+
+.input-icons i {
+    position: absolute;
+    margin: 16px 16px;
+    color: var(--pacific);
+    height: 35px;
+    width: 35px;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    
+    height: 100%;
+    background: var(--pacific);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button:hover{
+    background: var(--ming);
+}
+
+button, h2 {
+    color: white;
+    margin: auto;
+}
+
+a {
+    color: var(--pacific);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+a:hover {
+    color: var(--ming);
+}
+
+.forgot {
+    margin-bottom: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+    .login {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sign-up {
+        width: 100%;
+        height: 100%;
+    }
+}
